@@ -20,6 +20,9 @@ module.exports = {
           'Segoe UI Symbol',
         ],
       },
+      colors: {
+        dark: '#1a202c',
+      },
     },
   },
   plugins: [],
