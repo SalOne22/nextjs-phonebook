@@ -1,21 +1,19 @@
 import Link from 'next/link';
 import { HTMLAttributes } from 'react';
 
-import Button from './button';
-
 export default function Navigation(props: HTMLAttributes<HTMLDivElement>) {
   return (
     <nav {...props}>
       <ul className="flex gap-1">
         <li>
-          <Button variant="ghost" as={Link} href="/">
+          <Link className="btn btn-ghost" href="/">
             Home
-          </Button>
+          </Link>
         </li>
         <li>
-          <Button variant="ghost" as={Link} href="/contacts">
+          <Link className="btn btn-ghost" href="/contacts">
             Contacts
-          </Button>
+          </Link>
         </li>
       </ul>
     </nav>

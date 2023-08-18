@@ -1,0 +1,11 @@
+.btn {
+  @apply inline-flex items-center px-4 rounded-md font-semibold h-10 transition duration-200;
+}
+
+.btn-ghost {
+  @apply bg-transparent hover:bg-white/40 dark:hover:bg-black/40;
+}
+
+.btn-outline {
+  @apply bg-transparent hover:bg-white/10 border-[0.8px] border-white;
+}
